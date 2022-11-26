@@ -4,6 +4,34 @@
   box-sizing: border-box;
 }
 
-h1 {
-  border: 1px solid red;
+:root {
+  --base-font: "SF Pro Display", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--base-font);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* BLACK FRIDAY BANNER */
+
+.black-friday-banner {
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 50px;
+  top: 0;
+}
+
+.black-friday-banner .black-friday-content p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
 }
